@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 200px 400px;
+  font-family: sans-serif;
+  text-align: center;
+}
+h1 {
+  font-size: 40px;
+}
+.counter-display {
+  font-size: 60px;
+  margin-top: 20px;
+  font-weight: 600;
+}
+button {
+  width: 150px;
+  height: 30px;
+  margin-top: 20px;
+  font-size: 15px;
+  border: 3px solid;
+  background-color: transparent;
+  transition: 0.7s;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #000;
+  color: #fff;
+}
+@media (max-width: 992px) {
+  body {
+    margin: 0px;
+  }
+}
+@media (max-width: 450px){
+    body{
+        margin-top: 250px;
+    }
+}
